@@ -1,7 +1,9 @@
- body{
+/*background image*/
+body{
     background-image: url("../images/background.png");
  }
  
+ /*header*/
  h1 {
      position: absolute;
      top: 0;
@@ -22,32 +24,40 @@
 .buttons {
     position: relative;
     float: right;
-    top: 0;
+    top: 20px;
     margin:0;
-    width: 8%;
-    padding: 20px;
+    width: 8%; 
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: white;
-    border: none; 
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
     z-index: 1;
 }
+/*gets rid of the right side border left on the last button*/
+#c-button{
+    border-right: none;
+}
 
+/*used to fill in white space between name and buttons in header*/
 .header-fill {
     position: absolute;
     top: 0;
     left: 0;
     margin: 0;
+    border-bottom: 10px #777777;
     background-color: white;
     float: left;
     width: 100%;
     font-size: 30px;
     padding: 20px;
     z-index: 0;
+    
 }
 
-
+/*about me content*/
 #about {
     position: relative;
     clear:both;
@@ -59,15 +69,6 @@
     color: #4aaaa5;
 }
 
-#portfolio {
-    clear:both;
-
-}
-
-#contact{
-    clear:both;
-}
-
 .me {
     float:right;
 
@@ -76,4 +77,14 @@
 .about-text{
     float: center;
     position: relative;
+}
+
+/*portfolio content*/
+#portfolio {
+    clear:both;
+}
+
+/*contact content*/
+#contact{
+    clear:both;
 }
