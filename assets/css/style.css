@@ -3,11 +3,13 @@ body{
     background-image: url("../images/background.png");
  }
  
+
+
  /*header*/
  h1 {
      position: absolute;
      top: 0;
-     left: 0;
+     left: 300px;
      margin: 0;
      padding: 20px;
      float: left;
@@ -18,8 +20,6 @@ body{
      color: white;
      z-index: 1;
     }
-
-   
 
 .buttons {
     position: relative;
@@ -50,6 +50,7 @@ body{
     margin: 0;
     border-bottom: 10px #777777;
     background-color: white;
+    color: white;
     float: left;
     width: 100%;
     font-size: 30px;
@@ -57,6 +58,8 @@ body{
     z-index: 0;
     box-shadow: 0px 2px #777777;
 }
+
+
 
 /*about me content*/
 #about {
@@ -71,22 +74,23 @@ body{
     font-size: 30px;
 }
 
-
-/* random test note*/
 .me {
-    float:right;
-
-    
+    float:right;    
 }
+
 .about-text{
     float: center;
     position: relative;
 }
 
+
+
 /*portfolio content*/
 #portfolio {
     clear:both;
 }
+
+
 
 /*contact content*/
 #contact-h2 {
