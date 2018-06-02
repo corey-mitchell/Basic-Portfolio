@@ -36,6 +36,7 @@ body{
     border-left: none;
     z-index: 1;
 }
+
 /*gets rid of the right side border left on the last button*/
 #c-button{
     border-right: none;
@@ -54,7 +55,7 @@ body{
     font-size: 30px;
     padding: 20px;
     z-index: 0;
-    
+    box-shadow: 0px 2px #777777;
 }
 
 /*about me content*/
@@ -85,6 +86,22 @@ body{
 }
 
 /*contact content*/
-#contact{
+#h2 {
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    background-color: white;
+    color: #4aaaa5;
+    box-shadow: 0px 2px #777777;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.contact{
     clear:both;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    padding-left: 20px;
 }
