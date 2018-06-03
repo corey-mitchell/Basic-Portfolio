@@ -1,24 +1,41 @@
 /*background image*/
+
 body{
     background-image: url("../images/background.png");
+    width: 960px;
  }
  
+ .background-box{
+    position: relative;
+    color: white;
+    background-color: white;
+    top: 150px;
+    left: 200px;
+    width: 1100px;
+    height: 500px;
+    z-index: 0;
+}
 
 
  /*header*/
+
+
+
  h1 {
-     position: absolute;
+     position: relative;
      top: 0;
-     left: 300px;
+     left: 200px;
      margin: 0;
      padding: 20px;
      float: left;
-     width: 15%;
+     width: 20%;
      font-family: 'Times New Roman', Times, serif;
      font-size: 30px;
+     font-weight: bold;
      background-color: #4aaaa5;
      color: white;
      z-index: 1;
+     overflow: visible;
     }
 
 .buttons {
@@ -26,33 +43,34 @@ body{
     float: right;
     top: 20px;
     margin:0;
-    width: 8%; 
+    left: 340px;
+    width: 10%; 
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: white;
+    border-width: thin;
     border-top: none;
     border-bottom: none;
     border-left: none;
     z-index: 1;
 }
 
-/*gets rid of the right side border left on the last button*/
+/*gets rid of the right side border on the contact button*/
 #c-button{
     border-right: none;
 }
 
 /*used to fill in white space between name and buttons in header*/
 .header-fill {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    bottom: 70px;
     margin: 0;
     border-bottom: 10px #777777;
     background-color: white;
     color: white;
     float: left;
-    width: 100%;
+    width: 50em;
     font-size: 30px;
     padding: 20px;
     z-index: 0;
@@ -62,6 +80,9 @@ body{
 
 
 /*about me content*/
+
+
+
 #about {
    clear:both;
     position: relative;
@@ -86,6 +107,9 @@ body{
 
 
 /*portfolio content*/
+
+
+
 #portfolio {
     clear:both;
 }
@@ -93,24 +117,106 @@ body{
 
 
 /*contact content*/
-#contact-h2 {
+
+
+
+#c-title {
     clear:both;
     position: relative;
-    top: 100px;
+    left: 200px;
+    bottom: 370px; 
+    width: 1020px;
+    margin: 20px;
     padding: 20px;
     background-color: white;
     color: #4aaaa5;
     box-shadow: 0px 2px #777777;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-
+    font-weight: bold;
+    z-index: 1;
 }
 
-.contact{
+/*name entry*/
+#c-name {
     position: relative;
-    top: 100px;
-    left: 20px;
+    bottom: 375px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
 
+#c-name-box {
+    position: relative;
+    bottom: 375px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+/*email entry*/
+#c-email {
+    position: relative;
+    bottom: 370px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#c-email-box {
+    position: relative;
+    bottom: 370px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+/*message entry*/
+#c-message {
+    position: relative;
+    bottom: 365px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#c-message-box {
+    position: relative;
+    bottom: 365px;
+    left: 200px;
+    margin: 5px;
+    margin-left: 40px;
+    width: 700px;
+    height: 150px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+/*submit button*/
+#submit-btn {
+    position: relative;
+    bottom: 330px;
+    right: 516px;
+    padding: 10px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    color: white;
+
+
+    
+}
