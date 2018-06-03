@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <title>Portfolio</title>
 
@@ -12,13 +12,9 @@
         <h1>Corey Mitchell</h1>
             <button class="buttons" id="c-button">Contact</button>   
         
-            <a href="portfolio.html">
-                <button class="buttons">Portfolio</button>
-            </a>
+            <button type="button" class="buttons" onclick="location.href='portfolio.html'">Portfolio</button>
 
-            <a href="index.html">
-                <button class="buttons">About</button>
-            </a>
+            <button type="button" class="buttons" onclick="location.href='index.html'">About</button>
 
             <p class="header-fill">#</p>
             
@@ -33,7 +29,7 @@
                 <input id="c-email-box" type="text" name="nametexbox" size="100">
 
             <p id="c-message">Message</p>
-                <textarea id="c-message-box" type="text" name="nametexbox" size="100" maxlength="250"></textarea>
+                <textarea id="c-message-box" name="nametexbox" maxlength="250"></textarea>
             
                 <button id="submit-btn">Submit</button>
 

@@ -111,7 +111,7 @@ body{
     left: 260px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 975px;
+    width: 1000px;
     font-size: 20px;
 }
 
@@ -120,7 +120,7 @@ body{
     bottom: 375px;
     left: 260px;
     padding-bottom: 20px;
-    width: 975px;
+    width: 1000px;
     font-size: 20px;
 }
 
@@ -128,7 +128,7 @@ body{
     position: relative;
     bottom: 375px;
     left: 260px;
-    width: 975px;
+    width: 1000px;
     font-size: 20px;
 }
 
@@ -139,7 +139,8 @@ body{
     left: 240px;
     float: left;
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
 }
 
 
