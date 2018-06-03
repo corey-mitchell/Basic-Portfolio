@@ -102,18 +102,15 @@ body{
     z-index: 1;
 }
 
-/*my image*/
-#me {
-    position: relative;
-    bottom: 370px;
-    left: 240px; 
-    float: left;
-}
+
 
 /*bio text*/
-#text1{
-    float:center;
-    z-index: 5;
+p#text1{
+    position: relative;
+    bottom: 375px;
+    left: 260px;
+    padding: 20px;
+    width: 975px;
 }
 
 #text2{
@@ -126,6 +123,13 @@ body{
     z-index: 1;
 }
 
+/*my image*/
+#me {
+    position: relative;
+    bottom: 360px;
+    left: 240px;
+    float: left;
+}
 
 
 /*portfolio content*/
