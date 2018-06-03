@@ -105,22 +105,31 @@ body{
 
 
 /*bio text*/
-p#text1{
+#text1{
     position: relative;
     bottom: 375px;
     left: 260px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 975px;
+    font-size: 20px;
 }
 
 #text2{
-
-    z-index: 1;
+    position: relative;
+    bottom: 375px;
+    left: 260px;
+    padding-bottom: 20px;
+    width: 975px;
+    font-size: 20px;
 }
 
 #text3{
-
-    z-index: 1;
+    position: relative;
+    bottom: 375px;
+    left: 260px;
+    width: 975px;
+    font-size: 20px;
 }
 
 /*my image*/
@@ -129,6 +138,8 @@ p#text1{
     bottom: 360px;
     left: 240px;
     float: left;
+    padding: 20px;
+    padding-top: 10px;
 }
 
 
