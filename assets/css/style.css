@@ -167,6 +167,47 @@ body{
     z-index: 1;
 }
 
+/*images*/
+#img1 {
+    position: relative;
+    bottom: 380px;
+    left: 220px;
+    padding: 20px;
+    float: left;
+}
+
+#img2 {
+    position: relative;
+    bottom: 380px;
+    left: 220px;
+    padding: 20px;
+    float: left;
+}
+
+#img3 {
+    position: relative;
+    bottom: 380px;
+    left: 220px;
+    padding: 20px;
+    float:left;
+}
+
+#img4{
+    position: relative;
+    bottom: 180px;
+    right: 425px;
+    padding: 20px;
+    float: left;
+}
+
+#img5{
+    /* position: relative;
+    bottom: 380px;
+    left: 2200px;
+    padding: 20px;
+    float: left;
+} */
+
 
 
 /*contact content*/
