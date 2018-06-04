@@ -108,7 +108,7 @@ body{
 #text1{
     position: relative;
     bottom: 375px;
-    left: 260px;
+    left: 240px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 1000px;
@@ -118,7 +118,7 @@ body{
 #text2{
     position: relative;
     bottom: 375px;
-    left: 260px;
+    left: 240px;
     padding-bottom: 20px;
     width: 1000px;
     font-size: 20px;
@@ -127,7 +127,7 @@ body{
 #text3{
     position: relative;
     bottom: 375px;
-    left: 260px;
+    left: 240px;
     width: 1000px;
     font-size: 20px;
 }
@@ -136,7 +136,7 @@ body{
 #me {
     position: relative;
     bottom: 360px;
-    left: 240px;
+    left: 220px;
     float: left;
     padding: 20px;
     padding-top: 0px;
@@ -201,12 +201,12 @@ body{
 }
 
 #img5{
-    /* position: relative;
-    bottom: 380px;
-    left: 2200px;
+    position: relative;
+    bottom: 395px;
+    left: 435px;
     padding: 20px;
     float: left;
-} */
+}
 
 
 
