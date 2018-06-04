@@ -193,6 +193,8 @@ body{
     float:left;
 }
 
+/*can hopefully add two more images with the same settings as the above images without having to adjust anything.*/
+
 #img4{
     position: relative;
     bottom: 180px;
