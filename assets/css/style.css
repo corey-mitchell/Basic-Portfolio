@@ -194,6 +194,7 @@ body{
 }
 
 /*can hopefully add two more images with the same settings as the above images without having to adjust anything.*/
+/* ^^may have to adjust background box and make it a stand-alone div from the rest of the other backgrounds. */
 
 #img4{
     position: relative;
