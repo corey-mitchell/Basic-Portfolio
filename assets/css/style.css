@@ -3,6 +3,7 @@
 body{
     background-image: url("../images/background.png");
     width: 960px;
+    overflow: hidden;
  }
  
  .background-box{
