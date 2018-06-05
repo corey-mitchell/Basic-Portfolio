@@ -100,7 +100,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    z-index: 1;
 }
 
 
@@ -165,7 +164,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    z-index: 1;
 }
 
 /*images*/
@@ -212,6 +210,10 @@ body{
     float: left;
 }
 
+/*image banners*/
+
+
+
 
 
 /*contact content*/
@@ -234,7 +236,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
-    z-index: 1;
 }
 
 /*name entry*/
