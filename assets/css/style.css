@@ -36,7 +36,6 @@ body{
      background-color: #4aaaa5;
      color: white;
      z-index: 1;
-     overflow: visible;
     }
 
 .buttons {
@@ -212,7 +211,39 @@ body{
 
 /*image banners*/
 
+.img1:hover {
+    
+}
+#ph1 {
+    position: absolute;
+    bottom: 350px;
+    left: 240px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 13.5px;
+    color: white;
+    background-color: #4aaaa5;
+    
+}
 
+ 
+ph2 {
+
+}
+
+/*###{
+
+}
+
+###{
+
+}
+
+###{
+
+} */
 
 
 
